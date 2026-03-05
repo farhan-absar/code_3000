@@ -4,13 +4,15 @@
 
 
 #Assessment of Risk of Security Threats:
-- Moderate to low risk
+- Low risk
 - Concerns:
-    - Can see all the training and test data
+    - Can see the coursework and can potentially copy solutions
     - Can see the original owner of the git repo
     - Can see all the other students that forked the original git repo
     - Privacy concerns
  
 #Steps taken to secure the repo:
-- Made it private
-  -Only Dr. Lamoureux and I can see it
+- No secrets stored
+- No private credentials stored
+- .gitignore used to prevent committing wrong files
+- Changes are controlled by me, no external collaborators
